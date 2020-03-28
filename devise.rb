@@ -105,7 +105,7 @@ run 'curl -L https://raw.githubusercontent.com/lewagon/rails-templates/master/lo
 # README
 ########################################
 markdown_file_content = <<-MARKDOWN
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+Rails app © 2020 Piotr Damer
 MARKDOWN
 file 'README.md', markdown_file_content, force: true
 
@@ -231,6 +231,6 @@ JS
   ########################################
   git :init
   git add: '.'
-  git commit: "-m 'Initial commit with devise template from https://github.com/lewagon/rails-templates'"
+  git commit: "-m 'Initial commit with devise'"
 
 end
